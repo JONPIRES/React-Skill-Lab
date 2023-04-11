@@ -1,13 +1,21 @@
 // import logo from './logo.svg';
 import SkillList from "./SkillList"
 import NewSkillForm from "./NewSkillForm"
+import "./App.css"
+
+const skills = [
+  {name:"HTML", level:5},
+  {name:"CSS", level:3},
+  {name:"Javascript", level:4},
+  {name:"Python", level:2}
+]
 
 function App() {
   return (
     <div className="App">
         <h1>React Dev Skills</h1>
-        <SkillList />
-        <hr />
+        <SkillList skills={skills}/>
+        <br />
         <NewSkillForm />
 
     </div>

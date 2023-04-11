@@ -1,12 +1,15 @@
 import React from 'react'
 import SkillListItem from "./SkillListItem"
+import "./SkillList.css"
 
-function SkillList() {
+function SkillList(props) {
   return (
-    <ul>
-        <SkillListItem />
-        <SkillListItem />
-        <SkillListItem />
+    <ul className='skill-list'>
+        {props.skills.map((skill, idx) => {
+         return <SkillListItem skill={skill.name} level={skill.level} key={idx +skill} index={idx} /> 
+        } )}
+        
+
     </ul>
   )
 }
