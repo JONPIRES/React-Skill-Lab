@@ -4,7 +4,7 @@
     align-items: center;
     margin: 0.5rem;
     padding: 0.2rem 0.6rem;
-    border: 0.2rem solid coral;
+    border: 0.2rem solid rgb(160, 185, 184);
     border-radius: 0.3rem;
     list-style: none;
     color: teal;
@@ -14,9 +14,10 @@
 
 .level{
     /* margin-left: 5rem; */
+    margin-left: 5rem;
     padding: 0.3rem 0.8rem;
     color: white;
-    background-color: teal;
+    background-color: rgb(123, 95, 215);
     border-radius: 0.8rem;
     font-size: 0.8rem;
     font-weight: normal;

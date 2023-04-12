@@ -7,7 +7,7 @@
     font-weight: bold;
     color: teal;
     text-align: left;
-    border: 0.2rem solid coral;
+    border: 0.2rem solid rgb(160, 185, 184);
     border-radius: 0.3rem;
     padding: 1rem;
 }
@@ -17,7 +17,7 @@
     font-weight: bold;
     color: teal;
     padding: 0.2rem;
-    border: 0.2rem solid coral;
+    border: 0.2rem solid rgb(123, 95, 215);
     border-radius: 0.3rem;
     outline: none;
 }
@@ -27,7 +27,7 @@
     font-weight: bold;
     color: teal;
     padding: 0.2rem;
-    border: 0.2rem solid coral;
+    border: 0.2rem solid rgb(123, 95, 215);
     border-radius: 0.3rem;
     outline: none;
 }
@@ -38,7 +38,7 @@
     font-weight: bold;
     color: white;
     padding: 0.2rem;
-    background-color: teal;
-    border: 0.2rem solid teal;
+    background-color: rgb(123, 95, 215);
+    border: 0.2rem solid rgb(160, 185, 184);
     border-radius: 0.3rem;
 }
