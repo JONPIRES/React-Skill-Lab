@@ -13,17 +13,21 @@ import "./App.css"
 
 function App() {
   const [skills,setSkills] = useState([
-    {name:"HTML", level:5},
-    {name:"CSS", level:3},
-    {name:"Javascript", level:4},
-    {name:"Python", level:2}
+    {skill:"HTML", level:5},
+    {skill:"CSS", level:3},
+    {skill:"Javascript", level:4},
+    {skill:"Python", level:2}
   ])
+
+  function handleSkill(newSkill){
+    setSkills(skills => [...skills,newSkill])
+  }
   return (
     <div className="App">
         <h1>React Dev Skills</h1>
         <SkillList skills={skills}/>
         <br />
-        <NewSkillForm />
+        <NewSkillForm handleSkill={handleSkill} />
 
     </div>
   );
